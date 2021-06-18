@@ -4,14 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mySite</title>
 </head>
 <body>
-    <h1>I code again!</h1>
+    <!-- <h1>I code again!</h1>
     <label>Insert your name: </label><br>
     <input type="text" id="myText"> <br>
-    <button type="button" id="myButton">Submit</button>
+    <button type="button" id="myButton">Submit</button> -->
+
+    <ul class="tabs">
+        <li data-tab-target="#home" class=" active tab">Home</li>
+        <li data-tab-target="#about" class="tab">About me</li>
+        <li data-tab-target="#blog" class="tab">Blog</li>
+        <li data-tab-target="#contact" class="tab">Contact</li>
+
+    </ul>
+        <div class="tab-content">
+            <div id="home" data-tab-content class="active">
+                <h1>Home</h1>
+                <p>This is the homepage, welcome!</p>
+            </div>
+            <div id="about" data-tab-content>
+                <h1>About</h1>
+                <p>Name: bla bla <br>
+                    Last Name: bli bli <br>
+                    Age: 1 Million <br>
+                </p>
+            </div>
+            <div id="blog" data-tab-content>
+                <h1>Blog</h1>
+                <p>This is where I should, but never will, write my thoughts and ideas or experiences and shit!</p>
+            </div>
+            <div id="contact" data-tab-content>
+                <h1>Contact</h1>
+                <p>This is where you can contact me:<br>
+                    E-Mail: fakemail@shabi.label<br>
+                    Phone: Just don't..ever!<br>
+                </p>
+            </div>
+
+        </div>
+        
+   
     
+
+
+    <script src="script.js" defer>
+
+    </script>
+    <link href="styles.css" rel="stylesheet">
 
     <!-- <script src="index.js"> -->
 
