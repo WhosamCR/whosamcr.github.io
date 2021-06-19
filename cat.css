@@ -1,3 +1,18 @@
 h1, p {
-    font-family: Arial, sans-serif;
+    
+
+      background: #111111;
+      font-family: "metropolis-regular",sans-serif;
+      font-size: 1 rem;
+      font-style: normal;
+      font-weight: normal;
+      font-style: italic;
+      color: rgb(255, 205, 130);
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      
+  }
+  .button{
+    cursor: pointer;
   }
